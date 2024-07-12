@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>draft</title> 
+    <link rel="stylesheet" href="stylesheet222.css">
+</head>
+<body>
+    <div class="wrap">
+            <ul class="menu">
+                <li><a href="home.html">Home</li></a>
+                <li><a href="customer.html">Customers</li></a>
+                <li><a href="department.html">Departments</li></a>
+                <li><a href="media.html">Media</li></a>
+            </ul>
+        </div>
+        <div class="Search">
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">search</button>
+                </form>
+        </div>
+
+    <h2 style="background-color: crimson;">IMAGES</h2>
+        <div class="image-grid">
+            <img src="ws1.jpg" alt="Image 1">
+            <img src="ws2.jpg" alt="Image 2">
+            <img src="ws3.jpg" alt="Image 3">
+            <img src="ws4.jpg" alt="Image 4">
+            <img src="ws5.jpg" alt="Image 5">
+            <img src="ws1.jpg" alt="Image 6">
+        </div>
+        <p><h2 style="background-color: crimson;">VIDEO</h2></p>
+            <div class="video-container">
+                <iframe width="693" height="390" src="https://www.youtube.com/embed/G2b7dORf5-0" title="Google Workspace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="693" height="390" src="https://www.youtube.com/embed/G2b7dORf5-0" title="Google Workspace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <iframe width="693" height="390" src="https://www.youtube.com/embed/G2b7dORf5-0" title="Google Workspace" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <br>
+        <h2 style="background-color: crimson;">AUDIO</h2>
+        <div class="audio-container">
+            <audio controls>
+                <source src="audio1.mp3" type="audio/mpeg">
+            </audio>
+            <audio controls>
+                <source src="audio1.mp3" type="audio/mpeg">
+            </audio>
+            <audio controls>
+                <source src="audio1.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+
+        <h2>User Information Form</h2>
+        <form action="/submit_form" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <div class="input-container">
+                    <input type="text" id="name" name="name" required>
+                    <i class="fas fa-pencil-alt edit-icon"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <div class="input-container">
+                    <input type="email" id="email" name="email" required>
+                    <i class="fas fa-pencil-alt edit-icon"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No.:</label>
+                <div class="input-container">
+                    <input type="tel" id="phone" name="phone" required>
+                    <i class="fas fa-pencil-alt edit-icon"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <div class="input-container">
+                    <input type="date" id="dob" name="dob" required>
+                    <i class="fas fa-pencil-alt edit-icon"></i>
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+</body>
+</html>
